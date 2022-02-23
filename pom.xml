@@ -20,6 +20,13 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>io.fabric8.forge</groupId>
+			<artifactId>openshift</artifactId>
+			<version>2.2.5</version>
+		</dependency>
+
+
+		<dependency>
 			<groupId>com.youta8.cloud</groupId>
 			<artifactId>spring-cloud-dependencies</artifactId>
 			<version>2.4.4.3</version>
