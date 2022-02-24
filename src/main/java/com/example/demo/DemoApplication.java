@@ -16,7 +16,8 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot!";
+		String button = "<a href='/hello'>HelloApp</a>";
+		return "Greetings from Spring Boot!" + "</br>" + button;
 	}
 
 	@GetMapping("/hello")
@@ -25,6 +26,3 @@ public class DemoApplication {
 	}
 
 }
-
-
-
